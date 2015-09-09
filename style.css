@@ -1,0 +1,165 @@
+body {
+	margin: 0px;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*LINK COLORING*/
+a:link {
+	text-decoration: none;
+}
+
+/*PAGE HEADER AND LOGO*/
+
+#skyline{
+	width: 100%;
+	position: relative;
+
+}
+
+#skyline-container{
+	position: relative;
+}
+
+#logo {
+	border-radius: 50%;
+	border: 5px solid white;
+	position: absolute;
+	top: 80%;
+	margin: auto;
+	width: 131px;
+	left: 10%;
+}
+
+/*TWO-COLUMN LAYOUT OVERALL CONTAINER*/
+
+.container{
+	margin: auto;
+	max-width: 1000px;
+	margin-top: 90px;
+	margin-bottom: 200px;
+}
+
+/*COLUMN 1*/
+.info-bar{
+	display: inline-block;
+	vertical-align: top;
+	width: 22%;
+	
+}
+
+h4{
+	font-family: Arial, sans-serif;
+	margin-top: 1em;
+}
+
+.info-bar > p{
+	font-family: Georgia, serif;
+	color: gray;
+	padding-bottom: 15px;
+	border-bottom: solid gray 1px;
+}
+
+form{
+	margin-top: 1em;
+}
+
+#search{
+	font-family: Arial, sans-serif;
+	color: gray;
+}
+
+/*COLUMN 2*/
+.entry-box {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	padding-left: 44px;
+	font-family: Arial, sans-serif;
+}
+
+
+h2 {
+	font-size: 2em;
+	padding: 0;
+    margin-bottom: 14px;
+	margin-top: 0;
+}
+
+.entry-byline {
+	font-style: italic;
+	font-family: Georgia, serif;
+	margin-bottom: 1em;	
+}
+
+.entry-text {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+/*TUMBLR BOX*/
+#follow-box {
+	position: fixed;
+	background-color: white;
+	border: 1px solid #CAC7C7;
+	border-radius: 5px;
+	width: 300px;
+	height: 89px;
+	bottom: 50px;
+	right: 30px;
+	font-family: Arial, sans-serif;
+}
+
+h6{
+	font-size: 1em;
+	margin: 0;
+	padding: 6px;
+	border-bottom: 1px solid #CAC7C7;
+}
+
+#tumblr-logo{
+	display: inline-block;
+	width: 40px;
+	padding: 8px;
+}
+
+#tumblr-ironyard{
+	display: inline-block;
+	width: 125px;
+	vertical-align: top;
+	padding-top: 11px;
+}
+
+#tumblr-link{
+    margin: 0;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+#tumblr-id{
+    font-size: .7em;
+    color: gray;
+    margin: 0;
+}
+
+button{
+	background-color: #529ECC;
+	border: none;
+	border-radius: 5px;
+	width: 85px;
+	font-size: 0.8em;
+	text-align: left;
+	color: white;
+	height: 26px;
+	vertical-align: top;
+	margin: 17px 5px;
+}
+
+button > p{
+    margin: 0;
+
+}
